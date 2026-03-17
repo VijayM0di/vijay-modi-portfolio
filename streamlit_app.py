@@ -103,12 +103,15 @@ with st.sidebar:
     st.markdown("[🔗 LinkedIn](https://linkedin.com/in/vijaymodi174)")
     st.markdown("[🐙 GitHub](https://github.com/VijayM0di)")
     st.write("---")
-    st.markdown("### 🧠 Core Stack")
-    st.caption("GenAI | Prompt Eng | Computer Vision | Audio AI | RAG Architecture")
+    st.markdown("### 🧠 Expertise")
+    st.caption("Prompt Engineering")
+    st.caption("Computer Vision")
+    st.caption("Audio AI / RAG")
+    st.caption("MLOps")
 
 # --- TOP HEADER ---
 st.markdown("<h1 class='name-header'>VIJAY MODI</h1>", unsafe_allow_html=True)
-st.markdown("<p style='font-size:1.2rem; color:#8b949e;'>Senior AI Engineer | Expert in Production-Scale Intelligence</p>", unsafe_allow_html=True)
+st.markdown("<p style='font-size:1.2rem; color:#8b949e;'>Senior AI Engineer | Scalable Intelligence & Architecture</p>", unsafe_allow_html=True)
 
 # --- CLIENT MARQUEE ---
 st.markdown("""
@@ -121,19 +124,19 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- MAIN WORK FEED ---
-st.header("⚡ Core Engagements & Live Products")
+st.header("⚡ Enterprise Experience")
 
 # 1. OpenAI Engagement
 st.markdown("""
     <div class='card'>
         <div class='card-title'>OpenAI | Prompt Engineering Specialist</div>
-        <div class='card-subtitle'>via Drytis | Feb 2025 – Present</div>
+        <div class='card-subtitle'>via Drytis | Feb 2026 – Present</div>
         <ul>
-            <li>Executing advanced <b>Prompt Engineering</b> and LLM optimization for high-stakes AI applications.</li>
-            <li>Architecting complex system prompts and multi-turn interaction models for production environments.</li>
-            <li>Providing live architectural support for OpenAI-integrated tech stacks.</li>
+            <li>Leading <b>Prompt Engineering</b> initiatives and LLM optimization for high-performance AI applications.</li>
+            <li>Designing complex system-level prompts and multi-agent interaction protocols.</li>
+            <li>Providing technical leadership and architectural support for OpenAI-integrated stacks.</li>
         </ul>
-        <span class='tag'>GPT-4</span> <span class='tag'>Prompt Engineering</span> <span class='tag'>LLM Ops</span> <span class='tag'>System Architecture</span>
+        <span class='tag'>GPT-4o</span> <span class='tag'>Prompt Engineering</span> <span class='tag'>LLM Ops</span> <span class='tag'>System Design</span>
     </div>
     """, unsafe_allow_html=True)
 
@@ -141,13 +144,13 @@ st.markdown("""
 st.markdown("""
     <div class='card'>
         <div class='card-title'>DP World | Computer Vision Lead</div>
-        <div class='card-subtitle'>CCTV AI Suite (Quantum Bot) | 2024 – 2026</div>
+        <div class='card-subtitle'>CCTV AI Suite (Quantum Bot) | Jun 2024 – Oct 2025</div>
         <ul>
-            <li>Architected a real-time safety monitoring suite for <b>DP World</b> industrial ports/warehouses.</li>
-            <li>Engineered <b>Cython-accelerated</b> CV modules, jumping from 5 to 25 FPS for real-time safety kit detection.</li>
-            <li>Implemented PPE detection and multi-zone vehicle tracking with GPU-optimized YOLO v10.</li>
+            <li>Architected the real-time safety monitoring suite for <b>DP World</b> industrial ports.</li>
+            <li>Developed <b>Cython-optimized</b> modules, increasing CV throughput from 5 to 25 FPS for industrial-grade safety monitoring.</li>
+            <li>Deployed multi-zone vehicle tracking and PPE detection using GPU-accelerated YOLO v10.</li>
         </ul>
-        <span class='impact-text'>Result: 40% reduction in incident response time.</span><br><br>
+        <span class='impact-text'>Result: 40% reduction in incident response time for stakeholders.</span><br><br>
         <span class='tag'>YOLO v10</span> <span class='tag'>Cython</span> <span class='tag'>CUDA</span> <span class='tag'>Industrial CV</span>
     </div>
     """, unsafe_allow_html=True)
@@ -155,15 +158,15 @@ st.markdown("""
 # 3. Qbbot (In-house Live)
 st.markdown("""
     <div class='card'>
-        <div class='card-title'>Qbbot <span class='live-badge'>LIVE</span></div>
-        <div class='card-subtitle'>GenBI AI Agent Platform | In-House Project</div>
+        <div class='card-title'>Qbbot <span class='live-badge'>LIVE PRODUCT</span></div>
+        <div class='card-subtitle'>GenBI AI Agent Platform | In-House Engineering</div>
         <ul>
-            <li>Developed an end-to-end <b>GenBI platform</b> enabling natural language "Chat-with-Data."</li>
-            <li>Built custom text-to-SQL engines and automated BI report generation.</li>
-            <li>Integrated multiple LLMs (OpenAI, Gemini, Bedrock) with a modular RAG architecture.</li>
+            <li>Engineered a production-ready <b>GenBI platform</b> for "Chat-with-Data" analytics.</li>
+            <li>Built custom text-to-SQL engines and integrated multi-LLM support (OpenAI, Gemini, Bedrock).</li>
+            <li>Architected modular RAG pipelines for semantic indexing and explainable analytics.</li>
         </ul>
         <span class='impact-text'>Impact: 60% reduction in manual BI reporting workload.</span><br><br>
-        <span class='tag'>LangChain</span> <span class='tag'>SQL-LLM</span> <span class='tag'>RAG</span> <span class='tag'>Full-Stack AI</span>
+        <span class='tag'>LangChain</span> <span class='tag'>Vector DBs</span> <span class='tag'>RAG</span> <span class='tag'>SQL-LLM</span>
     </div>
     """, unsafe_allow_html=True)
 
@@ -171,35 +174,24 @@ st.markdown("""
 st.markdown("""
     <div class='card'>
         <div class='card-title'>Dialora | Lead AI Engineer</div>
-        <div class='card-subtitle'>Voice Agent Platform | 2025</div>
+        <div class='card-subtitle'>Voice Agent platform (Codiste) | Nov 2025 – Jan 2026</div>
         <ul>
-            <li>Optimized <b>Audio RAG</b> pipelines to achieve sub-0.6s latency for voice conversations.</li>
-            <li>Integrated <b>Deepgram</b> for high-accuracy STT and managed real-time agent state via n8n.</li>
+            <li>Developed sub-0.6s latency <b>Audio RAG</b> pipelines for real-time voice conversations.</li>
+            <li>Orchestrated n8n workflows for agent state management and automated CRM triggers.</li>
         </ul>
-        <span class='tag'>Audio AI</span> <span class='tag'>Deepgram</span> <span class='tag'>Low Latency RAG</span> <span class='tag'>n8n</span>
+        <span class='tag'>Audio AI</span> <span class='tag'>Deepgram</span> <span class='tag'>Low-Latency RAG</span> <span class='tag'>n8n</span>
     </div>
     """, unsafe_allow_html=True)
 
-# --- OPEN SOURCE & EXTRAS ---
-st.header("🌐 Open Source & Research")
-c1, c2 = st.columns(2)
-
-with c1:
-    st.markdown("""
-        <div class='card'>
-            <div class='card-title' style='font-size:1.1rem;'>🍜 Ramen-Shop</div>
-            <p style='font-size:0.8rem;'>High-concurrency full-stack architecture showcase.</p>
-            <a href='https://github.com/enderh3art/Ramen-Shop' style='color:#58a6ff; font-size:0.8rem;'>View on GitHub →</a>
-        </div>
-        """, unsafe_allow_html=True)
-
-with c2:
-    st.markdown("""
-        <div class='card'>
-            <div class='card-title' style='font-size:1.1rem;'>🚀 ISRO Research</div>
-            <p style='font-size:0.8rem;'>Mars Habitat Computational Design & Origami-based structures.</p>
-        </div>
-        """, unsafe_allow_html=True)
+# --- RESEARCH SECTION ---
+st.header("🔬 Research Foundation")
+st.markdown("""
+    <div class='card'>
+        <div class='card-title' style='font-size:1.1rem;'>ISRO | Research Intern</div>
+        <p style='font-size:0.9rem; color:#8b949e;'>Computational Design & Mars Habitat Engineering (Jan 2024 – Jul 2024)</p>
+        <p style='font-size:0.85rem;'>Developed software for deployable Mars habitats using origami-based engineering and 3D modeling to industry standards.</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 # --- FOOTER ---
 st.markdown("<br><hr><center style='color:#8b949e; font-size:0.8rem;'>VIJAY MODI | SENIOR AI ENGINEER | AHMEDABAD, INDIA | 2026</center>", unsafe_allow_html=True)
