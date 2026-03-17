@@ -29,7 +29,7 @@ st.markdown("""
         color: #0d47a1;
     }
     </style>
-    """, unsafe_content_type=True)
+    """, unsafe_allow_html=True)
 
 # --- SIDEBAR ---
 with st.sidebar:
