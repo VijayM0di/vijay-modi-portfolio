@@ -156,32 +156,49 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # 3. QUANTUM BOT (QB)
+# 3. QUANTUM BOT (QB)
 st.markdown("""
     <div class='card'>
         <div style='display: flex; justify-content: space-between; align-items: center;'>
             <span class='card-title'>Quantum Bot | AI Product Architect</span>
-            <span class='live-badge'>5 LIVE Stakeholder Products</span>
+            <span class='live-badge'>5 LIVE ENTERPRISE PRODUCTS</span>
         </div>
         <div class='card-subtitle'>Jun 2024 – Oct 2025</div>
-        <p>Managed the architecture and deployment of <b>5 core AI products</b>, all currently live and stakeholder-focused.</p>
+        <p style='color:#c9d1d9;'>Led the end-to-end architecture for a suite of <b>5 stakeholder-facing products</b>, delivering production-grade AI across diverse business sectors.</p>
         
-        <p style='margin-bottom:5px;'><b>Key Highlight: DP World CCTV AI Suite</b></p>
-        <ul>
-            <li>Architected real-time safety monitoring for <b>DP World</b> ports.</li>
-            <li>Increased processing from 5 to 25 FPS using <b>Cython-optimized</b> modules.</li>
-        </ul>
+        <!-- DP WORLD SECTION -->
+        <div style='background: #0d1117; padding: 15px; border-radius: 8px; border: 1px solid #30363d; margin-top: 15px;'>
+            <p style='margin:0; color: #58a6ff; font-weight: bold;'>🏗️ Industrial Excellence: DP World CCTV AI Suite</p>
+            <ul style='margin-top: 5px; font-size: 0.9rem;'>
+                <li>Architected a real-time safety monitoring ecosystem for <b>DP World</b> port infrastructure.</li>
+                <li>Engineered <b>Cython-optimized</b> modules and GPU acceleration, achieving a performance leap from <b>5 FPS to 25 FPS</b>.</li>
+                <li>Deployed modules for PPE detection, vehicle tracking, and hazard monitoring in high-stakes environments.</li>
+            </ul>
+        </div>
 
-        <p style='margin-bottom:5px;'><b>Key Highlight: Qbbot (GenBI Platform)</b></p>
-        <ul>
-            <li>Full-stack development of a live GenBI platform for enterprise data analytics.</li>
-        </ul>
-        
+        <!-- QBBOT SECTION -->
+        <div style='background: #0d1117; padding: 15px; border-radius: 8px; border: 1px solid #30363d; margin-top: 10px;'>
+            <p style='margin:0; color: #58a6ff; font-weight: bold;'>📊 Business Intelligence: Qbbot (GenBI Platform)</p>
+            <ul style='margin-top: 5px; font-size: 0.9rem;'>
+                <li>Full-stack development of a live <b>Generative BI platform</b> used for enterprise-level data interrogation.</li>
+                <li>Built a custom Text-to-SQL engine and automated visualization pipeline for executive reporting.</li>
+            </ul>
+        </div>
+
+        <!-- OTHER PROJECTS SUMMARY -->
+        <div style='margin-top:15px; font-size: 0.85rem; color: #8b949e;'>
+            <i>+ Additional live deployments in Healthcare Automation (AI Sante), Conversational Suites, and Predictive Pharma Analytics.</i>
+        </div>
+
         <div class='impact-highlight'>Result: 100% successful deployment rate across 5 distinct business sectors.</div>
         <br>
-        <div class='tag'>DP World</div> <span class='tag'>Industrial CV</span> <span class='tag'>GenBI</span> <span class='tag'>Live Product Suite</span>
+        <div class='tag'>DP World</div> 
+        <div class='tag'>Industrial CV</div> 
+        <div class='tag'>GenBI</div> 
+        <div class='tag'>Cython Ops</div> 
+        <div class='tag'>Stakeholder Management</div>
     </div>
     """, unsafe_allow_html=True)
-
 # --- RESEARCH ---
 st.header("🔬 Academic Research")
 st.markdown("""
