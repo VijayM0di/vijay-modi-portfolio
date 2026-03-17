@@ -3,7 +3,7 @@ import streamlit as st
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Vijay Modi | Senior AI Engineer", page_icon="🌐", layout="wide")
 
-# --- HIGH-CONTRAST DARK THEME ---
+# --- HIGH-CONTRAST DARK THEME CSS ---
 st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap');
@@ -39,9 +39,7 @@ st.markdown("""
         border-radius: 12px;
         border: 1px solid #30363d;
         margin-bottom: 25px;
-        transition: 0.3s;
     }
-    .card:hover { border-color: #58a6ff; background-color: #1c2128; }
 
     .card-title { color: #58a6ff; font-size: 1.6rem; font-weight: 700; }
     .card-subtitle { color: #8b949e; font-size: 0.95rem; margin-bottom: 15px; }
@@ -84,6 +82,14 @@ st.markdown("""
         margin-top: 15px;
         font-weight: 600;
     }
+
+    .sub-card {
+        background: #0d1117; 
+        padding: 15px; 
+        border-radius: 8px; 
+        border: 1px solid #30363d; 
+        margin-top: 15px;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -114,28 +120,27 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
-# --- PROFESSIONAL EXPERIENCE ---
+# --- EXPERIENCE SECTION ---
 st.header("💼 Enterprise Engineering")
 
-# 1. DRYTIS
+# 1. DRYTIS (OpenAI)
 st.markdown("""
     <div class='card'>
         <div style='display: flex; justify-content: space-between; align-items: center;'>
             <span class='card-title'>Drytis | Senior AI Engineer</span>
-            <span class='live-badge'>Active Pipeline Lead</span>
+            <span class='live-badge'>Pipeline Lead</span>
         </div>
         <div class='card-subtitle'>Feb 2026 – Present</div>
         <p>Architecting and managing <b>AI/ML Pipelines</b> for a diverse portfolio of enterprise clients.</p>
         <ul>
             <li><b>OpenAI Engagement:</b> Spearheading Prompt Engineering and LLM optimization for high-scale applications.</li>
             <li>Designing end-to-end automated pipelines for multi-modal data processing and inference.</li>
-            <li>Providing architectural governance for client-side AI integration and infrastructure.</li>
         </ul>
-        <div class='tag'>AI/ML Pipelines</div> <span class='tag'>Prompt Engineering</span> <span class='tag'>System Architecture</span>
+        <div class='tag'>AI/ML Pipelines</div> <span class='tag'>Prompt Engineering</span>
     </div>
     """, unsafe_allow_html=True)
 
-# 2. CODISTE / DIALORA
+# 2. CODISTE (Dialora)
 st.markdown("""
     <div class='card'>
         <div style='display: flex; justify-content: space-between; align-items: center;'>
@@ -145,17 +150,13 @@ st.markdown("""
         <div class='card-subtitle'>Codiste | Nov 2025 – Jan 2026</div>
         <p><b>Product: Dialora Voice AI Platform</b></p>
         <ul>
-            <li><b>Feature Release:</b> Engineered and deployed the <b>Global RAG (Retrieval-Augmented Generation)</b> module, a flagship feature serving users worldwide.</li>
-            <li>Optimized voice-interaction latency to sub-0.6s, setting a worldwide industry benchmark for real-time Voice AI.</li>
-            <li>Scaled the platform infrastructure to handle high-concurrency global traffic.</li>
+            <li><b>Feature Release:</b> Engineered and deployed the <b>Global RAG</b> module, a flagship feature serving users worldwide.</li>
+            <li>Optimized voice-interaction latency to sub-0.6s, setting a worldwide industry benchmark.</li>
         </ul>
-        <div class='impact-highlight'>Result: Successfully launched Dialora's RAG capabilities to a global market.</div>
-        <br>
-        <div class='tag'>Worldwide RAG</div> <span class='tag'>Voice AI</span> <span class='tag'>Deepgram</span> <span class='tag'>Global Infrastructure</span>
+        <div class='tag'>Worldwide RAG</div> <span class='tag'>Voice AI</span>
     </div>
     """, unsafe_allow_html=True)
 
-# 3. QUANTUM BOT (QB)
 # 3. QUANTUM BOT (QB)
 st.markdown("""
     <div class='card'>
@@ -164,50 +165,38 @@ st.markdown("""
             <span class='live-badge'>5 LIVE ENTERPRISE PRODUCTS</span>
         </div>
         <div class='card-subtitle'>Jun 2024 – Oct 2025</div>
-        <p style='color:#c9d1d9;'>Led the end-to-end architecture for a suite of <b>5 stakeholder-facing products</b>, delivering production-grade AI across diverse business sectors.</p>
+        <p>Led end-to-end architecture for a suite of <b>5 stakeholder-facing products</b> delivered across multiple sectors.</p>
         
-        <!-- DP WORLD SECTION -->
-        <div style='background: #0d1117; padding: 15px; border-radius: 8px; border: 1px solid #30363d; margin-top: 15px;'>
+        <div class='sub-card'>
             <p style='margin:0; color: #58a6ff; font-weight: bold;'>🏗️ Industrial Excellence: DP World CCTV AI Suite</p>
             <ul style='margin-top: 5px; font-size: 0.9rem;'>
-                <li>Architected a real-time safety monitoring ecosystem for <b>DP World</b> port infrastructure.</li>
-                <li>Engineered <b>Cython-optimized</b> modules and GPU acceleration, achieving a performance leap from <b>5 FPS to 25 FPS</b>.</li>
-                <li>Deployed modules for PPE detection, vehicle tracking, and hazard monitoring in high-stakes environments.</li>
+                <li>Architected real-time safety monitoring for <b>DP World</b> port infrastructure.</li>
+                <li>Increased CV throughput from <b>5 FPS to 25 FPS</b> using Cython-optimized modules.</li>
             </ul>
         </div>
 
-        <!-- QBBOT SECTION -->
-        <div style='background: #0d1117; padding: 15px; border-radius: 8px; border: 1px solid #30363d; margin-top: 10px;'>
+        <div class='sub-card'>
             <p style='margin:0; color: #58a6ff; font-weight: bold;'>📊 Business Intelligence: Qbbot (GenBI Platform)</p>
             <ul style='margin-top: 5px; font-size: 0.9rem;'>
-                <li>Full-stack development of a live <b>Generative BI platform</b> used for enterprise-level data interrogation.</li>
-                <li>Built a custom Text-to-SQL engine and automated visualization pipeline for executive reporting.</li>
+                <li>Full-stack development of a live <b>Generative BI platform</b> for enterprise analytics.</li>
+                <li>Built custom Text-to-SQL engine and automated visualization pipeline.</li>
             </ul>
-        </div>
-
-        <!-- OTHER PROJECTS SUMMARY -->
-        <div style='margin-top:15px; font-size: 0.85rem; color: #8b949e;'>
-            <i>+ Additional live deployments in Healthcare Automation (AI Sante), Conversational Suites, and Predictive Pharma Analytics.</i>
         </div>
 
         <div class='impact-highlight'>Result: 100% successful deployment rate across 5 distinct business sectors.</div>
         <br>
-        <div class='tag'>DP World</div> 
-        <div class='tag'>Industrial CV</div> 
-        <div class='tag'>GenBI</div> 
-        <div class='tag'>Cython Ops</div> 
-        <div class='tag'>Stakeholder Management</div>
-    </div>
-    """, unsafe_allow_html=True)
-# --- RESEARCH ---
-st.header("🔬 Academic Research")
-st.markdown("""
-    <div class='card'>
-        <div class='card-title'>ISRO | Research Intern</div>
-        <div class='card-subtitle'>Mars Habitat Engineering | 2024</div>
-        <p>Developed computational structures for deployable Mars habitats using origami-based mechanical design.</p>
+        <div class='tag'>DP World</div> <div class='tag'>GenBI</div> <div class='tag'>Cython</div>
     </div>
     """, unsafe_allow_html=True)
 
-# --- FOOTER ---
+# 4. RESEARCH
+st.header("🔬 Research")
+st.markdown("""
+    <div class='card'>
+        <div class='card-title'>ISRO | Research Intern</div>
+        <div class='card-subtitle'>Jan 2024 – Jul 2024</div>
+        <p>Developed software for deployable Mars habitats using origami-based engineering and 3D modeling.</p>
+    </div>
+    """, unsafe_allow_html=True)
+
 st.markdown("<br><hr><center style='color:#8b949e; font-size:0.8rem;'>VIJAY MODI | SENIOR AI ENGINEER | 2026</center>", unsafe_allow_html=True)
