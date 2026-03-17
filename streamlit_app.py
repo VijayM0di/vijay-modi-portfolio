@@ -62,27 +62,27 @@ with tab1:
     
     # --- DRYTIS (Current Role) ---
     with st.expander("Drytis | AI Developer (Feb'26 - Present)", expanded=True):
-        st.markdown("<span class='company-header'>Drytisai - Client-Facing AI Engineering Platform</span>", unsafe_content_type=True)
+        st.markdown("<span class='company-header'>Drytisai - Client-Facing AI Engineering Platform</span>", unsafe_allow_html=True)
         st.write("- Delivered AI-assisted software engineering support via live pair programming and async sessions.")
         st.write("- Handled debugging, feature implementation, and full-stack deployment across diverse tech stacks.")
         st.write("- Maintained documentation and contributed to platform optimization on the proprietary 'Vibe Coding' platform.")
-        st.markdown("<span class='impact-text'>🚀 Impact: Enabled rapid, production-ready delivery by reducing client blockers and improving project velocity.</span>", unsafe_content_type=True)
+        st.markdown("<span class='impact-text'>🚀 Impact: Enabled rapid, production-ready delivery by reducing client blockers and improving project velocity.</span>", unsafe_allow_html=True)
 
     # --- CODISTE ---
     with st.expander("Codiste | AI Developer (Nov'25 - Jan'26)"):
-        st.markdown("<span class='company-header'>Dialora - AI Voice Agent Platform</span>", unsafe_content_type=True)
+        st.markdown("<span class='company-header'>Dialora - AI Voice Agent Platform</span>", unsafe_allow_html=True)
         st.write("- Designed and deployed RAG pipeline achieving **0.3s–0.6s latency** using Qdrant.")
         st.write("- Architected **n8n workflow** orchestration with real-time agent state management.")
         st.write("- Enabled voice agents to trigger API calls and CRM updates with sub-second response times.")
-        st.markdown("<span class='impact-text'>🚀 Impact: Enabled 24/7 voice automation, reducing lead leakage and automating business workflows.</span>", unsafe_content_type=True)
+        st.markdown("<span class='impact-text'>🚀 Impact: Enabled 24/7 voice automation, reducing lead leakage and automating business workflows.</span>", unsafe_allow_html=True)
 
     # --- QUANTUM BOT ---
     with st.expander("Quantum Bot | ML & AI Developer (Jun'24 - Oct'25)"):
-        st.markdown("<span class='company-header'>AI Sante (Healthcare) & AI Agent Chatbot</span>", unsafe_content_type=True)
+        st.markdown("<span class='company-header'>AI Sante (Healthcare) & AI Agent Chatbot</span>", unsafe_allow_html=True)
         st.write("- Developed a modular AI Agent suite using **CrewAI, LangGraph, and AutoGen**.")
         st.write("- Built a LangGraph-powered sales bot and integrated voice navigation for hands-free use.")
         st.write("- Deployed a healthcare automation suite on Azure with React and Django.")
-        st.markdown("<span class='impact-text'>🚀 Impact: Reduced manual workload by 70%, boosted efficiency by 30%, and reduced integration time by 50%.</span>", unsafe_content_type=True)
+        st.markdown("<span class='impact-text'>🚀 Impact: Reduced manual workload by 70%, boosted efficiency by 30%, and reduced integration time by 50%.</span>", unsafe_allow_html=True)
 
 with tab2:
     st.header("Key Technical Projects")
@@ -92,18 +92,18 @@ with tab2:
         st.subheader("CCTV AI Suite (Safety/Surveillance)")
         st.write("- Built a real-time computer vision suite for monitoring industrial environments.")
         st.write("- **Increased processing speed from 5 to 25 FPS** using Cython and GPU acceleration.")
-        st.markdown("<span class='impact-text'>Result: Reduced incident response time by 40%.</span>", unsafe_content_type=True)
+        st.markdown("<span class='impact-text'>Result: Reduced incident response time by 40%.</span>", unsafe_allow_html=True)
         
     with col2:
         st.subheader("Qbbot (GenBI AI Agent Platform)")
         st.write("- Developed platform for 'Chat with Data', text-to-SQL, and automated BI reports.")
         st.write("- Integrated OpenAI, Azure, Gemini, and Bedrock.")
-        st.markdown("<span class='impact-text'>Result: Reduced manual BI reporting workload by 60%.</span>", unsafe_content_type=True)
+        st.markdown("<span class='impact-text'>Result: Reduced manual BI reporting workload by 60%.</span>", unsafe_allow_html=True)
 
     st.write("---")
     st.subheader("Golbot (Pharma Forecasting)")
     st.write("- Created predictive analytics for sales/demand prediction in the pharmaceutical sector.")
-    st.markdown("<span class='impact-text'>Result: Improved forecasting accuracy by 20%.</span>", unsafe_content_type=True)
+    st.markdown("<span class='impact-text'>Result: Improved forecasting accuracy by 20%.</span>", unsafe_allow_html=True)
 
 with tab3:
     st.header("Internships")
@@ -136,4 +136,4 @@ with s3:
     st.info("FastAPI, Flask, Streamlit, Docker, Azure, Git, Cython")
 
 st.write("---")
-st.markdown("<center>Built by Vijay Modi | 2026</center>", unsafe_content_type=True)
+st.markdown("<center>Built by Vijay Modi | 2026</center>", unsafe_allow_html=True)
