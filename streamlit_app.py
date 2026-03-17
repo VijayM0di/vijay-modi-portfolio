@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 1. PAGE SETUP
-st.set_page_config(page_title="Vijay Modi | Senior AI Engineer", page_icon="⚡", layout="wide")
+st.set_page_config(page_title="Vijay Modi | Senior AI Architect", page_icon="⚡", layout="wide")
 
 # 2. THEME & STYLING
 st.markdown("""
@@ -32,50 +32,73 @@ st.markdown("""
         font-size: 0.85rem;
     }
     
+    .comp-box {
+        background: #161b22;
+        border: 1px solid #30363d;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    .comp-title { color: #58a6ff; font-weight: bold; font-size: 0.9rem; margin-bottom: 5px; }
+    .comp-desc { color: #8b949e; font-size: 0.8rem; }
+
     .success-text { color: #3fb950; font-weight: bold; }
     </style>
     """, unsafe_allow_html=True)
 
-# --- SIDEBAR ---
+# --- SIDEBAR: FULL SPECTRUM COMPETENCIES ---
 with st.sidebar:
-    st.markdown("## ⚡ Profile")
-    st.write("Senior AI Engineer | Architecture & Intelligence")
+    st.markdown("## ⚡ Core Competencies")
+    
+    competencies = {
+        "👁️ Video": "Action Understanding & Industrial CV",
+        "🔊 Audio": "Real-time Voice AI & Low-Latency RAG",
+        "📝 Text": "Worldwide RAG & Agentic Workflows",
+        "📈 Time-Series": "Predictive Pharma Sales Forecasting",
+        "🧠 Prompting": "Advanced Prompt Eng (OpenAI Standards)",
+        "🚀 Deployment": "Worldwide Product Releases"
+    }
+    
+    for title, desc in competencies.items():
+        st.markdown(f"""
+        <div class='comp-box'>
+            <div class='comp-title'>{title}</div>
+            <div class='comp-desc'>{desc}</div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    st.write("---")
+    st.markdown("### 🛠️ Contact")
     st.write("📧 vijaymodi2002@gmail.com")
-    st.write("📱 +91 9033701984")
     st.markdown("[🔗 LinkedIn](https://linkedin.com/in/vijaymodi174)")
     st.markdown("[🐙 GitHub](https://github.com/VijayM0di)")
-    st.write("---")
-    st.write("**Core Competencies:**")
-    st.caption("Multimodal Video Understanding")
-    st.caption("Prompt Engineering (OpenAI)")
-    st.caption("Worldwide Product Deployment")
 
 # --- HEADER ---
 st.title("VIJAY MODI")
-st.subheader("Architecting Enterprise-Grade AI Pipelines & Multimodal Systems")
+st.subheader("Senior AI Architect | Full-Spectrum Intelligence Systems")
 
-# --- CLIENTS BAR ---
+# --- MARQUEE CLIENTS ---
 st.write("---")
 m1, m2, m3, m4 = st.columns(4)
-m1.metric("Key Client", "OpenAI")
-m2.metric("Key Client", "DP World")
+m1.metric("Enterprise Client", "OpenAI")
+m2.metric("Enterprise Client", "DP World")
 m3.metric("Research Partner", "ISRO")
 m4.metric("Corporate Partner", "Tata Group")
 st.write("---")
 
 # --- SECTION 1: DRYTIS (CURRENT) ---
-st.header("💼 Enterprise Engineering: Drytis")
+st.header("💼 Current Engagement: Drytis")
 with st.container():
     col1, col2 = st.columns([4, 1])
-    col1.markdown("### Senior AI Engineer | **Multi-Client Pipeline Lead**")
+    col1.markdown("### Senior AI Engineer | **Portfolio Pipeline Lead**")
     col2.write("Feb 2026 – Present")
     
-    st.write("Leading the development of end-to-end **AI/ML Pipelines** for a diverse portfolio of enterprise clients.")
+    st.write("Orchestrating end-to-end **AI/ML Pipelines** for high-growth enterprise stakeholders.")
     st.markdown("""
-    - Designing automated workflows for data ingestion, model fine-tuning, and production-scale inference.
-    - Providing high-level architectural governance for client-side AI integration and infrastructure optimization.
+    - Designing automated workflows for model fine-tuning, data-ingestion, and distributed inference.
+    - Implementing architectural standards for production-ready Generative AI across client tech-stacks.
     """)
-    st.markdown("<span class='tag'>Pipeline Architecture</span> <span class='tag'>MLOps</span> <span class='tag'>Scalable Intelligence</span>", unsafe_allow_html=True)
+    st.markdown("<span class='tag'>MLOps</span> <span class='tag'>Pipeline Orchestration</span> <span class='tag'>Scale Architecture</span>", unsafe_allow_html=True)
 
 st.write("---")
 
@@ -83,63 +106,62 @@ st.write("---")
 st.header("💼 Enterprise Engineering: Codiste")
 with st.container():
     col1, col2 = st.columns([4, 1])
-    col1.markdown("### Dialora | **Worldwide Product Release**")
+    col1.markdown("### Dialora | **Worldwide Product Feature Release**")
     col2.write("Nov 2025 – Jan 2026")
     
-    st.write("**Role: Lead AI Engineer**")
+    st.write("**Product: Global Voice AI Platform**")
     st.markdown("""
-    - **Global Feature Launch:** Engineered and deployed the flagship **Worldwide RAG** module for the Dialora Voice AI Platform.
-    - Successfully optimized voice-interaction latency to sub-0.6s, achieving a global industry benchmark for real-time low-latency response.
+    - **Global Impact:** Engineered and released the **Worldwide RAG** module, a flagship feature serving a global user base.
+    - **Audio Precision:** Optimized the voice-RAG pipeline to hit sub-0.6s latency, establishing a worldwide industry benchmark for low-latency conversational AI.
     """)
-    st.markdown("<span class='tag'>Worldwide RAG</span> <span class='tag'>Voice AI</span> <span class='tag'>Deepgram</span>", unsafe_allow_html=True)
+    st.markdown("<span class='tag'>Worldwide RAG</span> <span class='tag'>Voice AI</span> <span class='tag'>Low-Latency Audio</span>", unsafe_allow_html=True)
 
 st.write("---")
 
-# --- SECTION 3: QUANTUM BOT (QB) ---
+# --- SECTION 3: QUANTUM BOT (STAKEHOLDER SUITE) ---
 st.header("💼 Enterprise Engineering: Quantum Bot")
 with st.container():
     col1, col2 = st.columns([4, 1])
-    col1.markdown("### AI Product Architect | **5 Live Stakeholder Products**")
+    col1.markdown("### AI Product Architect | **5 Live Enterprise Products**")
     col2.write("Jun 2024 – Oct 2025")
     
-    st.write("Orchestrated the development and deployment of **5 distinct enterprise products**, all successfully delivered and currently live.")
-
-    # OPENAI PROJECT
-    st.info("**🌐 OPENAI: MULTIMODAL VIDEO UNDERSTANDING**")
+    # 1. OPENAI PROJECT
+    st.info("**🌐 OPENAI: MULTIMODAL VIDEO REASONING**")
     st.markdown("""
-    - **Multimodal Prompt Engineering:** Built a system to process raw video feeds and segment specific "Action Frames" for high-accuracy labeling.
-    - **Structured Synthesis:** Developed advanced prompt logic to describe frames across four dimensions: **Intent, Action, Reason, and Result**.
-    - Optimized the pipeline to translate visual cues into precise, structured metadata for training sophisticated action-recognition models.
+    - **Multimodal Synthesis:** Architected a pipeline to process raw video and extract high-reasoning frames.
+    - **Advanced Prompt Logic:** Developed four-dimensional synthesis (**Intent, Action, Reason, Result**) for training Large Multimodal Models (LMMs).
     """)
 
-    # DP WORLD PROJECT
-    st.info("**🏗️ DP WORLD: CCTV AI SUITE**")
+    # 2. DP WORLD PROJECT
+    st.info("**🏗️ DP WORLD: INDUSTRIAL CCTV SUITE**")
     st.markdown("""
-    - Architected the real-time safety monitoring suite for **DP World** port infrastructure.
-    - Optimized throughput from **5 FPS to 25 FPS** using Cython and GPU acceleration for industrial safety monitoring.
+    - **Computer Vision:** Architected the real-time safety monitor for **DP World** ports.
+    - **Performance:** Optimized processing throughput from **5 to 25 FPS** via Cython and GPU acceleration.
     """)
 
-    # GENBI PROJECT
+    # 3. GOLBOT PROJECT
+    st.info("**📈 GOLBOT: PREDICTIVE FORECASTING**")
+    st.markdown("""
+    - **Time-Series Analysis:** Developed predictive analytics for pharmaceutical sales/demand forecasting.
+    - **Impact:** Improved accuracy by **20%** and reduced manual analysis time by **60%** for business stakeholders.
+    """)
+
+    # 4. QBBOT PROJECT
     st.info("**📊 QBBOT: GENBI PLATFORM**")
     st.markdown("""
-    - Full-stack development of the live **Generative BI platform**.
-    - Engineered custom Text-to-SQL engines to enable natural-language data interrogation for executive stakeholders.
+    - **Generative BI:** Full-stack development of a live "Chat-with-Data" platform utilizing custom Text-to-SQL engines.
     """)
 
-    st.markdown("<p class='success-text'>✓ Delivered 5 Successive Enterprise Launches Across Manufacturing, Logistics, and SaaS</p>", unsafe_allow_html=True)
-    st.markdown("<span class='tag'>Prompt Engineering</span> <span class='tag'>Video AI</span> <span class='tag'>DP World</span> <span class='tag'>OpenAI</span>", unsafe_allow_html=True)
+    st.markdown("<p class='success-text'>✓ Delivered 5 Successive Global Stakeholder Launches</p>", unsafe_allow_html=True)
 
 st.write("---")
 
 # --- SECTION 4: RESEARCH ---
-st.header("🔬 Research & Education")
+st.header("🔬 Academic Research")
 with st.container():
     st.markdown("### **ISRO | Research Intern**")
     st.write("Jan 2024 – Jul 2024")
-    st.write("Applied computational origami engineering to design deployable Mars habitats, meeting rigorous industry structural standards.")
-    
-    st.markdown("### **NIRMA University**")
-    st.caption("Bachelor of Technology (B.Tech) in Computer Science & Engineering | 2020 – 2024")
+    st.write("Developed computational origami-based structures for deployable Mars habitats, adhering to rigorous industry mechanical standards.")
 
 st.write("---")
 st.markdown("<center style='color:#8b949e; font-size:0.8rem;'>VIJAY MODI | SENIOR AI ENGINEER | 2026</center>", unsafe_allow_html=True)
