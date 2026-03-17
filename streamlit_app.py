@@ -46,9 +46,16 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# --- SIDEBAR: FULL SPECTRUM COMPETENCIES ---
+# --- SIDEBAR: CONTACT & COMPETENCIES ---
 with st.sidebar:
-    st.markdown("## ⚡ Core Competencies")
+    st.markdown("## ⚡ Contact")
+    st.write("📱 **+91 9033701984**")
+    st.write("📧 **vijaymodi2002@gmail.com**")
+    st.markdown("[🔗 LinkedIn](https://linkedin.com/in/vijaymodi174)")
+    st.markdown("[🐙 GitHub](https://github.com/VijayM0di)")
+    
+    st.write("---")
+    st.markdown("## 🧠 Full-Spectrum Expertise")
     
     competencies = {
         "👁️ Video": "Action Understanding & Industrial CV",
@@ -67,14 +74,8 @@ with st.sidebar:
         </div>
         """, unsafe_allow_html=True)
 
-    st.write("---")
-    st.markdown("### 🛠️ Contact")
-    st.write("📧 vijaymodi2002@gmail.com")
-    st.markdown("[🔗 LinkedIn](https://linkedin.com/in/vijaymodi174)")
-    st.markdown("[🐙 GitHub](https://github.com/VijayM0di)")
-
 # --- HEADER ---
-st.title("VIJAY MODI")
+st.markdown("<h1 style='font-size: 3.5rem;'>VIJAY MODI</h1>", unsafe_allow_html=True)
 st.subheader("Senior AI Architect | Full-Spectrum Intelligence Systems")
 
 # --- MARQUEE CLIENTS ---
@@ -86,19 +87,19 @@ m3.metric("Research Partner", "ISRO")
 m4.metric("Corporate Partner", "Tata Group")
 st.write("---")
 
-# --- SECTION 1: DRYTIS (CURRENT) ---
+# --- SECTION 1: DRYTIS ---
 st.header("💼 Current Engagement: Drytis")
 with st.container():
     col1, col2 = st.columns([4, 1])
     col1.markdown("### Senior AI Engineer | **Portfolio Pipeline Lead**")
     col2.write("Feb 2026 – Present")
     
-    st.write("Orchestrating end-to-end **AI/ML Pipelines** for high-growth enterprise stakeholders.")
+    st.write("Orchestrating end-to-end **AI/ML Pipelines** and architectural standards for high-growth enterprise stakeholders.")
     st.markdown("""
     - Designing automated workflows for model fine-tuning, data-ingestion, and distributed inference.
-    - Implementing architectural standards for production-ready Generative AI across client tech-stacks.
+    - Implementing high-scale Generative AI solutions across diverse client tech-stacks.
     """)
-    st.markdown("<span class='tag'>MLOps</span> <span class='tag'>Pipeline Orchestration</span> <span class='tag'>Scale Architecture</span>", unsafe_allow_html=True)
+    st.markdown("<span class='tag'>MLOps</span> <span class='tag'>Scale Architecture</span>", unsafe_allow_html=True)
 
 st.write("---")
 
@@ -106,62 +107,58 @@ st.write("---")
 st.header("💼 Enterprise Engineering: Codiste")
 with st.container():
     col1, col2 = st.columns([4, 1])
-    col1.markdown("### Dialora | **Worldwide Product Feature Release**")
+    col1.markdown("### Dialora | **Worldwide Product Release**")
     col2.write("Nov 2025 – Jan 2026")
     
     st.write("**Product: Global Voice AI Platform**")
     st.markdown("""
-    - **Global Impact:** Engineered and released the **Worldwide RAG** module, a flagship feature serving a global user base.
-    - **Audio Precision:** Optimized the voice-RAG pipeline to hit sub-0.6s latency, establishing a worldwide industry benchmark for low-latency conversational AI.
+    - **Global Release:** Engineered the **Worldwide RAG** module, a flagship feature serving a global user base.
+    - **Low Latency:** Optimized the Voice-RAG pipeline to hit sub-0.6s latency, establishing a global industry benchmark.
     """)
-    st.markdown("<span class='tag'>Worldwide RAG</span> <span class='tag'>Voice AI</span> <span class='tag'>Low-Latency Audio</span>", unsafe_allow_html=True)
+    st.markdown("<span class='tag'>Worldwide RAG</span> <span class='tag'>Voice AI</span> <span class='tag'>Audio RAG</span>", unsafe_allow_html=True)
 
 st.write("---")
 
-# --- SECTION 3: QUANTUM BOT (STAKEHOLDER SUITE) ---
+# --- SECTION 3: QUANTUM BOT ---
 st.header("💼 Enterprise Engineering: Quantum Bot")
 with st.container():
     col1, col2 = st.columns([4, 1])
     col1.markdown("### AI Product Architect | **5 Live Enterprise Products**")
     col2.write("Jun 2024 – Oct 2025")
     
-    # 1. OPENAI PROJECT
+    # 1. OPENAI
     st.info("**🌐 OPENAI: MULTIMODAL VIDEO REASONING**")
     st.markdown("""
-    - **Multimodal Synthesis:** Architected a pipeline to process raw video and extract high-reasoning frames.
-    - **Advanced Prompt Logic:** Developed four-dimensional synthesis (**Intent, Action, Reason, Result**) for training Large Multimodal Models (LMMs).
+    - **Prompt Engineering:** Architected a pipeline to segment videos and extract high-reasoning action frames.
+    - **Logic Synthesis:** Developed logic to describe sequences via **Intent, Action, Reason, and Result** for LMM training.
     """)
 
-    # 2. DP WORLD PROJECT
+    # 2. DP WORLD
     st.info("**🏗️ DP WORLD: INDUSTRIAL CCTV SUITE**")
     st.markdown("""
-    - **Computer Vision:** Architected the real-time safety monitor for **DP World** ports.
-    - **Performance:** Optimized processing throughput from **5 to 25 FPS** via Cython and GPU acceleration.
+    - **Computer Vision:** Architected real-time safety monitor for **DP World** ports; jumped from **5 to 25 FPS** via Cython.
     """)
 
-    # 3. GOLBOT PROJECT
+    # 3. GOLBOT
     st.info("**📈 GOLBOT: PREDICTIVE FORECASTING**")
     st.markdown("""
-    - **Time-Series Analysis:** Developed predictive analytics for pharmaceutical sales/demand forecasting.
-    - **Impact:** Improved accuracy by **20%** and reduced manual analysis time by **60%** for business stakeholders.
+    - **Time-Series:** Improved pharma sales forecasting accuracy by **20%** using predictive ML models.
     """)
 
-    # 4. QBBOT PROJECT
+    # 4. QBBOT
     st.info("**📊 QBBOT: GENBI PLATFORM**")
-    st.markdown("""
-    - **Generative BI:** Full-stack development of a live "Chat-with-Data" platform utilizing custom Text-to-SQL engines.
-    """)
+    st.markdown("- **Generative BI:** Full-stack development of a live 'Chat-with-Data' platform.")
 
     st.markdown("<p class='success-text'>✓ Delivered 5 Successive Global Stakeholder Launches</p>", unsafe_allow_html=True)
 
 st.write("---")
 
 # --- SECTION 4: RESEARCH ---
-st.header("🔬 Academic Research")
+st.header("🔬 Research")
 with st.container():
     st.markdown("### **ISRO | Research Intern**")
     st.write("Jan 2024 – Jul 2024")
-    st.write("Developed computational origami-based structures for deployable Mars habitats, adhering to rigorous industry mechanical standards.")
+    st.write("Applied computational origami engineering to design deployable Mars habitats.")
 
 st.write("---")
-st.markdown("<center style='color:#8b949e; font-size:0.8rem;'>VIJAY MODI | SENIOR AI ENGINEER | 2026</center>", unsafe_allow_html=True)
+st.markdown("<center style='color:#8b949e; font-size:0.8rem;'>VIJAY MODI | SENIOR AI ENGINEER | +91 9033701984 | 2026</center>", unsafe_allow_html=True)
